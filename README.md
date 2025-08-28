@@ -1,4 +1,3 @@
-# Disease_detector
 
 ---
 
@@ -23,11 +22,11 @@ This project is implemented in **Python** with **Jupyter Notebook** and leverage
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 The heart disease data used in this project is available on Kaggle:
 **UCI Heart Disease Data** — Redwankarimsony
-(Accessible here: [https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)) ([Kaggle][1])
+🔗 [https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data)
 
 ---
 
@@ -60,7 +59,12 @@ Disease_Detector/
 
 ## ⚙️ Installation
 
- Create a project folder and move into it
+1. Create a project folder and move into it
+2. (Optional) Create a virtual environment
+3. Install dependencies using:
+
+
+---
 
 ## ▶️ Usage
 
@@ -91,4 +95,17 @@ Disease_Detector/
 * ☁️ Deploy on **Cloud (AWS / GCP / Heroku)**
 
 ---
-[1]: https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data?utm_source=chatgpt.com "UCI Heart Disease Data - Kaggle"
+
+## 📂 Example Input CSV (`heart_dataset.csv`)
+
+```csv
+age,trestbps,chol,fbs,restecg,thalch,exang,oldpeak,slope,ca,thal,sex_Female,sex_Male,cp_asymptomatic,cp_atypical angina,cp_non-anginal,cp_typical angina
+58,130,220,1,normal,150,False,1.4,flat,0,fixed defect,0,1,0,0,0,1
+67,160,276,0,lv hypertrophy,108,True,1.5,flat,3,normal,0,1,1,0,0,0
+42,120,230,0,normal,170,False,1.0,upsloping,0,reversable defect,1,0,0,0,1,0
+50,130,210,0,lv hypertrophy,158,False,0.8,flat,0,normal,0,1,0,0,1,0
+45,114,230,0,normal,165,False,1.1,downsloping,0,normal,1,0,0,1,0,0
+```
+
+---
+
